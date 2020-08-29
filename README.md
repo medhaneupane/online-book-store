@@ -15,8 +15,19 @@ Online book store is a web application to allow users to select books through in
 **The following table lists operations and associated objects and files.**
 Operation | Files | Associated Objects
 ------------ | ------------- | -------------
-Content from cell 1 | Content from cell 2 | Content from cell 3
-Content in the first column | Content in the second column | Content in the second column
+Login | login.html, login.jsp | User javabean 
+Registration of User | register.html, register.jsp | User javabean
+Home Page - Displays shopping cart | home.jsp | User JavaBean, Cart JavaBean 
+Updation of user profile and password |	changeprofile.jsp |	User JavaBean 
+Logging out |	logout.jsp | User JavaBean 
+Browsing available books. |	browsebooks.jsp |	none 
+Querying books on price, title and category |	querybooks.jsp | none 
+Adding a books to Shopping cart |	addbook.jsp | User Bean,Cart Bean 
+Finalizing Order | home.jsp |	User Bean,Cart Bean, Order EJB 
+Displaying previous - Orders History | ordershistory.jsp | User Bean 
+Displaying items of an Order | orderitems.jsp | User Bean 
+Cancelling an Order | deleteorder.jsp, orderitems.jsp |	User Bean,Cart Bean, Order EJB 
+
 
 **The following are the steps to related to be taken to run the existing part of the application:**
 1. Download obs.zip and unzip it into webapps directory of Tomcat installation directory.
